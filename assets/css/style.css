@@ -1,0 +1,352 @@
+@font-face {
+    font-family: "Georgia";
+    src: url(../fonts/Georgia.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "PalatinoLinotype";
+    src: url(../fonts/PalatinoLinotype.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    transform: scale(1.2);
+}
+/*--------------------------------header--------------------------------*/
+header{
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    padding:20px 120px ;
+    justify-content: space-between;
+    position: fixed;
+    margin-left: 207px;
+    background-color: white;
+}
+.head_texts{
+    width: 191px;
+    display: flex;
+    justify-content: space-between;
+}
+.head_text{
+    color: #353732;
+    margin-right: 30px;
+}
+/*--------------------------------sec2--------------------------------*/
+.sec2{
+    margin: 0 auto;
+    width: 1440px;
+    padding: 100px 320px 110px 320px;
+}
+.sec2_text{
+    font-family: PalatinoLinotype;
+    color: #353732;
+    font-size: 36px;
+    line-height: 40px;
+    width: 683px;
+    margin-top: 17px;
+}
+/*--------------------------------sec3--------------------------------*/
+.sec3{
+    margin: 0 auto;
+    width: 1440px;
+    padding: 100px 336px 100px 336px;
+}
+.frame1{
+    display: flex;
+}
+.left_part{
+    margin-right: 17px;
+}
+.sec3_subtext{
+    font-family: Poppins;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 12px;
+    color: #353732;
+    margin-top: 17px;
+}
+.sec3_text1{
+    color: #45525B;
+    font-family: PalatinoLinotype;
+    font-size: 25px;
+    margin-top: 12px;
+}
+.sec3_bigtext1{
+    font-family: Georgia;
+    font-size: 14px;
+    width: 462px;
+    color: #45525B;
+    margin-top: 12px;
+}
+.date1{
+    font-family: Georgia;
+    font-size: 11px;
+    color: #45525B;
+    margin-top: 65px;
+}
+.sec3_text2{
+    color: #45525B;
+    font-family: PalatinoLinotype;
+    font-size: 16px;
+    margin-top: 9px;
+}
+.date2{
+    font-family: Georgia;
+    font-size: 11px;
+    color: #45525B;
+    margin-top: 9px;
+}
+.sec3_text3{
+    color: #45525B;
+    font-family: PalatinoLinotype;
+    font-size: 18px;
+    margin-top: 13px;
+    width: 168px;
+}
+.date3{
+    font-family: Georgia;
+    font-size: 11px;
+    color: #45525B;
+    margin-top: 7px;
+}
+.sec3_alltext{
+    margin-left: 20px;
+}
+.left_part:hover{
+    box-shadow: 0px 3px 15px rgba(0, 0, 5, 0.5);;
+}
+.top:hover{
+    box-shadow: 0px 3px 15px rgba(0, 0, 5, 0.5);;
+}
+.bottom:hover{
+    box-shadow: 0px 3px 15px rgba(0, 0, 5, 0.5);;
+}
+.right_part2:hover{
+    box-shadow: 0px 3px 15px rgba(0, 0, 5, 0.5);;
+}
+.rev1:hover{
+    box-shadow: 0px 3px 15px rgba(0, 0, 5, 0.5);;
+}
+.bottom{
+    margin-top: 47px;
+}
+
+.frame2{
+    display: flex;
+    margin-top: 48px;
+}
+.sec3_text4{
+    color: #45525B;
+    font-family: PalatinoLinotype;
+    font-size: 17px;
+    margin-top: 13px;
+}
+.date4{
+    font-family: Georgia;
+    font-size: 11px;
+    color: #45525B;
+    margin-top: 10px;
+}
+.frame3{
+    display: flex;
+    margin-top: 47px;
+}
+.rev1{
+    margin-right: 18px;
+}
+.sec3_text5{
+    color: #45525B;
+    font-family: PalatinoLinotype;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.date5{
+    font-family: Georgia;
+    font-size: 11px;
+    color: #45525B;
+    margin-top: 30px;
+}
+.date6{
+    font-family: Georgia;
+    font-size: 11px;
+    color: #45525B;
+    margin-top: 9px;
+}
+/*--------------------------------sec4--------------------------------*/
+input::-webkit-input-placeholder{
+    padding-left: 10px;
+}
+.sec4{
+    margin: 0 auto;
+    width: 1440px;
+    padding: 100px 336px;
+}
+.sec4_all{
+    display: flex;
+}
+.sec4_text{
+    color: #353732;
+    font-family: PalatinoLinotype;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.sec4_subtext{
+    font-family: Georgia;
+    font-size: 16px;
+    width: 373px;
+    color: #353732;
+    margin-top: 11px;
+    margin-right: 20px;
+}
+.link1{
+    margin-bottom: 10px;
+}
+.link_text{
+    font-family: Georgia;
+    font-size: 12px;
+    color: #353732;
+    margin-bottom: 2px;
+}
+.btn1{
+    width: 82px;
+    height: 38px;
+    background-color: #353732;
+    border-radius: 6px;
+    margin-top: 10px;
+    color: white;
+}
+.btn1:hover{
+    transform: scale(1.2);
+}
+.input{
+    width: 376px;
+    height: 38px;
+    border-radius: 8px;
+}
+/*--------------------------------sec5--------------------------------*/
+.sec5{
+    margin: 0 auto;
+    width: 1440px;
+    padding: 100px 320px;
+}
+.sec5_block{
+    display: flex;
+}
+.block_texts{
+    margin-left: 20px;
+}
+.block_text{
+    color: #45525B;
+    font-family: PalatinoLinotype;
+    font-size: 18px;
+    line-height: 24px;
+}
+.block_bigtext{
+    font-family: Georgia;
+    font-size: 16px;
+    width: 538px;
+    color: #45525B;
+    margin-top: 4px;
+    line-height: 22.4px;
+}
+.block_date{
+    font-family: Georgia;
+    font-size: 11px;
+    color: #45525B;
+    margin-top: 7px;
+}
+.sec5_block1{
+    display: flex;
+    margin-top: 50px;
+}
+.sec5_block3{
+    margin-top: 54px;
+}
+.block_bigtext2{
+    font-family: Georgia;
+    font-size: 16px;
+    width: 735px;
+    color: #45525B;
+    margin-top: 4px;
+    line-height: 22.4px;
+}
+.block_date1{
+    font-family: Georgia;
+    font-size: 11px;
+    color: #45525B;
+    margin-top: 20px;
+}
+.block_bigtext3{
+    font-family: Georgia;
+    font-size: 15px;
+    width: 753px;
+    color: #45525B;
+    margin-top: 4px;
+    line-height: 22.4px;
+}
+.block_bigtext4{
+    font-family: Georgia;
+    font-size: 15px;
+    width: 764px;
+    color: #45525B;
+    margin-top: 4px;
+    line-height: 22.4px;
+}
+.text_w_arrow{
+    margin-top: 64px;
+    margin-left: 346px;
+    display: flex;
+}
+.text_w_arrow:hover{
+    transform: scale(1.0);
+}
+.ar_text{
+    color: #575445;
+    margin-right: 5px;
+}
+.arrow{
+    margin-left: 9px;
+}
+.text_w_arrow a{
+    display: flex;
+}
+/*--------------------------------footer--------------------------------*/
+footer{
+    margin: 0 auto;
+    width: 1440px;
+    padding: 100px 320px;
+}
+.line{
+    margin-top: 19px;
+    display: flex;
+}
+.foot_text{
+    font-family: Georgia;
+    font-size: 15px;
+    color: #45525B;
+    margin-right: 20px;
+}
+.foot_subtext{
+    font-family: Georgia;
+    font-size: 14px;
+    margin-top: 9px;
+    color: #353732;
+}
+.foot_img{
+    display: flex;
+    width: 78px;
+}
